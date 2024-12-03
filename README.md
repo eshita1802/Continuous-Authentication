@@ -1,1 +1,5 @@
-# Continuous-Authentication
+# Continuous-Authentication based on Activity Patterns using Mobile Sensing Data
+This project focuses on the development of a deep learning-based continuous authentication system using activity patterns derived from smartphone sensing data. Continuous authentication plays a critical role in enhancing security on mobile devices by ensuring that the user is continuously verified on their device. 
+The dataset used in this study consists of accelerometer, gyroscope, magnetometer and linear acceleration data, with a preprocessing pipeline involving normalization, segmentation, and labeling of the activity data using a sliding window approach. 
+Initially, several deep learning models, including Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNNs), were explored; however, due to the complexity of the dataset, these models were discarded. Subsequently, a BERT (Bidirectional Encoder Representations from Transformers) model was adopted, leveraging its strength in handling sequential and time-series data. The performance of the BERT model was evaluated using metrics such as accuracy, precision, recall, and F1-score. This research demonstrates the potential of transformer-based models in addressing complex authentication tasks and highlights their applicability in the domain of mobile security 
+
