@@ -1,1 +1,1 @@
-# Continuous-Authenticatiom
+# Continuous-Authentication
